@@ -1,0 +1,20 @@
+[.dotfiles]
+checkout = git clone 'git@github.com:gitirabassi/dotfiles.git' '.dotfiles'
+
+[go/src/k8s.io/kubernetes]
+checkout = git clone 'git@github.com:kubernetes/kubernetes.git' 'kubernetes'
+
+[go/src/github.com/gitirabassi/experiments]
+checkout = git clone 'git@github.com:gitirabassi/experiments.git' 'experiments'
+
+[go/src/github.com/gitirabassi/vault-plugin-secrets-wireguard]
+checkout = git clone 'git@github.com:gitirabassi/vault-plugin-secrets-wireguard.git' 'vault-plugin-secrets-wireguard'
+
+[go/src/github.com/gitirabassi/archive]
+checkout = git clone 'git@github.com:gitirabassi/archive.git' 'archive'
+
+[go/src/github.com/gitirabassi/infra]
+checkout = git clone 'git@github.com:gitirabassi/infra.git' 'infra'
+
+[go/src/github.com/gitirabassi/passwordstore]
+checkout = git clone 'git@github.com:gitirabassi/passwordstore.git' 'passwordstore'

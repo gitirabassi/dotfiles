@@ -1,0 +1,4 @@
+*.pyc
+nvim/.config/nvim/.netrwhist
+.vagrant
+ubuntu-bionic-*

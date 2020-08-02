@@ -1,0 +1,24 @@
+[
+    {
+        "key": "ctrl+alt+o",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+alt+g",
+        "command": "go.test.cursor"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "go.test.coverage"
+    },
+    {
+        "key": "alt+b",
+        "command": "gitlens.toggleFileBlame",
+        "when": "editorTextFocus && config.gitlens.keymap == 'alternate' && gitlens:activeFileStatus =~ /blameable/"
+    },
+    {
+        "key": "alt+b",
+        "command": "-gitlens.toggleFileBlame",
+        "when": "editorTextFocus && config.gitlens.keymap == 'alternate' && gitlens:activeFileStatus =~ /blameable/"
+    }
+]

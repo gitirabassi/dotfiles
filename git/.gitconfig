@@ -1,0 +1,45 @@
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = nvim
+[branch]
+  autosetuprebase = always
+[alias]
+  st = status
+  lod = log --decorate
+  lodo = log --decorate --oneline
+  ci = commit
+  review = "!f() { nvim  `git diff --name-only $1 ':(exclude)vendor'` . ; } ; f"
+  lof = log --color --pretty=format:'%C(yellow)%h%C(reset) %s%C(bold red)%d%C(reset) %C(green)%ad%C(reset) %C(blue)[%an]%C(reset)' --relative-date --decorate
+  pr = "!f() { git fetch $1 refs/pull/$2/head:pr/$1/$2 && git checkout pr/$1/$2;  } ; f"
+  d = difftool
+  diffstats = "!f() { git diff --dirstat=files $1 $2; } ; f"
+  diffnosym = "!f() { git diff --color $1 $2 | sed -r 's/^([^-+ ]*)[-+ ]/\\1/' | less -r; } ; f"
+  conflicts = "!f() { git format-patch $1 --stdout | git-apply --check - 2>&1; } ; f"
+[user]
+  email = giacomo@tirabassi.eu
+  name = gitirabassi
+  signingkey = 0xC34F1B7957CE6065
+[credential]
+  helper = cache --timeout=360000
+[color]
+  ui = true
+[gpg]
+  program = gpg
+[commit]
+  gpgsign = true
+[merge]
+  tool = nvimdiff
+[mergetool]
+  prompt = true
+[mergetool "nvimdiff"]
+  cmd = nvim -d $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
+[difftool]
+  prompt = false
+[diff]
+  tool = nvimdiff
+[pull]
+  rebase = true
+[rebase]
+  instructionFormat = (%an <%ae>) %s
+[push]
+  default = current

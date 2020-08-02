@@ -1,0 +1,89 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "all",
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.stablePeek": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "files.insertFinalNewline": true,
+    "workbench.activityBar.visible": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "C_Cpp.clang_format_style": "file",
+    "gitlens.advanced.telemetry.enabled": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "window.zoomLevel": 1,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "Iosevka Term",
+    "explorer.confirmDelete": false,
+    "go.useLanguageServer": true,
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "go.formatTool": "gofmt",
+    "go.formatFlags": [
+        "-s"
+    ],
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": true
+    },
+    "go.testFlags": [
+        "-v"
+    ],
+    "workbench.sideBar.location": "left",
+    // "workbench.colorTheme": "Default Light+",
+    "go.languageServerExperimentalFeatures": {
+        "format": true,
+        "autoComplete": true
+    },
+    "go.delveConfig": {
+        "dlvLoadConfig": {
+            "followPointers": true,
+            "maxVariableRecurse": 1,
+            "maxStringLen": 1000,
+            "maxArrayValues": 64,
+            "maxStructFields": -1
+        }
+    },
+    "remote.SSH.defaultExtensions": [
+        "ms-vscode.Go",
+        "ms-vscode.cpptools",
+        "twxs.cmake",
+        "ms-python.python",
+        "vector-of-bool.cmake-tools"
+    ],
+    "cmake.configureOnOpen": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.clang_format_fallbackStyle": "GNU",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "external": true,
+        "args": [
+            "serve"
+        ]
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "python.languageServer": "Microsoft"
+}

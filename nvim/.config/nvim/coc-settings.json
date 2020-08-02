@@ -1,0 +1,32 @@
+{
+    "languageserver": {
+      "sh": {
+        "command": "bash-language-server",
+        "args": [
+          "start"
+        ],
+        "filetypes": ["sh"]
+      },
+      "c": {
+        "command": "cquery",
+        "filetypes": ["c", "cpp", "cc"],
+        "initializationOptions": {
+          "cacheDirectory": "/usr/local/cquery-cache"
+        }
+      },
+      "rust": {
+        "command": "rls",
+        "filetypes": ["rust"]
+      },
+      "go": {
+        "command": "gopls",
+        "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+        "initializationOptions": {
+          "formatStyle": "goimports"
+        },
+        "filetypes": ["go"]
+      }
+  },
+  "coc.preferences.autoTrigger": "trigger",
+  "coc.preferences.triggerAfterInsertEnter": false
+}
