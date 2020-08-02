@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#  Install Brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
 # Test brew version
 brew --version
 
