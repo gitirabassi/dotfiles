@@ -2,6 +2,13 @@
 
 This repo is very similar to github.com/fntlnz/dotfiles just with some macOS installation and configuration details
 
+# Init
+when getting a new macOS desktop or laptop follow these steps:
+- follow the regular steps for initializing the macOS
+- make sure you have a stable connection to the internet 
+- then open a terminal window and run 
+  - `curl -sSL https://raw.githubusercontent.com/gitirabassi/dotfiles/master/pre-init.sh |bash` 
+
 ## Resources
 https://github.com/drduh/YubiKey-Guide
 https://blog.filippo.io/touch-to-operate-password-store-yubikey-4/
