@@ -13,12 +13,12 @@ git=$(command -v git)
 stow=$(command -v stow)
 code=$(command -v code)
 
-$stow nvim
-$stow zsh
-$stow git
-$stow gnupg
-$stow vscode
-$stow myrepos
+$stow -t $HOME nvim 
+$stow -t $HOME zsh
+$stow -t $HOME git
+$stow -t $HOME gnupg
+$stow -t $HOME vscode
+$stow -t $HOME myrepos
 $code --install-extension eamodio.gitlens
 $code --install-extension eamodio.remotehub
 $code --install-extension ms-vscode.Go
