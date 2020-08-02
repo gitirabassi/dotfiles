@@ -21,7 +21,6 @@ $stow -t $HOME vscode
 $stow -t $HOME myrepos
 $code --install-extension eamodio.gitlens
 $code --install-extension eamodio.remotehub
-$code --install-extension ms-vscode.Go
 $code --install-extension ms-vscode.cpptools
 $code --install-extension vscjava.vscode-java-pack
 $code --install-extension twxs.cmake
