@@ -1,13 +1,16 @@
 #!/bin/sh
 
+set -e
+set -x
+
 #  Install Brew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Test brew version
 brew --version
 
 # Install all brew packages needed
-brew bundle install --file=brew/Brewfile
+brew bundle install --file=brew/Brewfile.work
 
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
