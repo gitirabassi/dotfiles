@@ -8,6 +8,12 @@ when getting a new macOS desktop or laptop follow these steps:
 - make sure you have a stable connection to the internet 
 - then open a terminal window and run 
   - `curl -sSL https://raw.githubusercontent.com/gitirabassi/dotfiles/master/pre-init.sh |bash` 
+- add accounts for emails, contacts, calendar, notes
+- configure apple ID
+- login spotify
+- login slack accounts
+- login signal
+- login telegram
 
 ## Resources
 https://github.com/drduh/YubiKey-Guide
