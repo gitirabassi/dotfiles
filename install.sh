@@ -13,6 +13,8 @@ git=$(command -v git)
 stow=$(command -v stow)
 code=$(command -v code)
 
+rm ~/.zshrc
+
 $stow -t $HOME nvim 
 $stow -t $HOME zsh
 $stow -t $HOME git
@@ -24,7 +26,6 @@ $code --install-extension eamodio.remotehub
 $code --install-extension ms-vscode.cpptools
 $code --install-extension vscjava.vscode-java-pack
 $code --install-extension twxs.cmake
-$code --install-extension vector-of-bool.cmake-tools
 $code --install-extension zxh404.vscode-proto3
 $code --install-extension ms-python.python
 $code --install-extension rust-lang.rust
