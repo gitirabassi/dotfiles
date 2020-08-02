@@ -42,7 +42,6 @@ $code --install-extension matepek.vscode-catch2-test-adapter
 $code --install-extension adamhartford.vscode-base64
 $code --install-extension bbenoist.vagrant
 $code --install-extension bpruitt-goddard.mermaid-markdown-syntax-highlighting
-$code --install-extension mauve.terraform
 $code --install-extension ms-vscode-remote.remote-containers
 $code --install-extension ms-vscode-remote.remote-ssh
 $code --install-extension ms-vscode-remote.remote-ssh-edit
