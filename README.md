@@ -1,0 +1,23 @@
+# Dotfiles
+
+This repo is very similar to github.com/fntlnz/dotfiles just with some macOS installation and configuration details
+
+## Resources
+https://github.com/drduh/YubiKey-Guide
+https://blog.filippo.io/touch-to-operate-password-store-yubikey-4/
+https://www.alessandromenti.it/blog/2017/01/transitioning-new-gpg-keypair.html
+https://github.com/herrbischoff/awesome-macos-command-line#google
+
+## Awesome dotfiles
+- https://github.com/andsens/homeshick
+- https://github.com/phisco/configs
+- https://github.com/webpro/awesome-dotfiles
+- https://github.com/joshukraine/mac-bootstrap
+- https://github.com/joshukraine/mac-bootstrap/blob/master/install/macos-defaults
+- https://github.com/atosatto/dotfiles
+
+## Usefull commands
+- `gpgconf --list-dirs`
+
+## to switch to a new yubikey
+`gpg-connect-agent "scd serialno" "learn --force" /bye`
