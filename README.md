@@ -8,8 +8,7 @@ when getting a new macOS desktop or laptop follow these steps:
 - make sure you have a stable connection to the internet 
 - then open a terminal window and run 
   - `curl -sSL https://raw.githubusercontent.com/gitirabassi/dotfiles/master/pre-init.sh |bash` 
-  - `cd go/src/github.com/gitirabassi/dotfiles`
-  - `bash init.sh`
+
 ## Resources
 https://github.com/drduh/YubiKey-Guide
 https://blog.filippo.io/touch-to-operate-password-store-yubikey-4/

@@ -15,6 +15,9 @@ brew bundle install --file=brew/Brewfile.work
 # Install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Run installation of dotfiles
+bash install.sh
+
 # Import public GPG key
 curl -sSL https://github.com/gitirabassi.gpg | gpg --import -
 # Adding trust to the keys trust --> 5
@@ -36,6 +39,3 @@ gpg --decrypt pippo.gpg
 
 # Download all repositories
 mr clone
-
-# Run installation of these packages
-bash install.sh
