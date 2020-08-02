@@ -36,6 +36,8 @@ ssh-add -L > ~/.ssh/id_rsa.pub
 # Test encryption/description
 gpg --encrypt --armor -r C34F1B7957CE6065 --output pippo.gpg README.md
 gpg --decrypt pippo.gpg
+rm -f pippo.gpg
 
 # Download all repositories
-mr clone
+cd ~ 
+mr checkout
