@@ -22,7 +22,7 @@ $stow -t $HOME gnupg
 $stow -t $HOME vscode
 $stow -t $HOME myrepos
 
-for ext in (vscode/extensions.txt)
+for ext in $(cat vscode/extensions.txt)
 do
     $code --install-extension ${ext}
 done
