@@ -15,6 +15,10 @@ when getting a new macOS desktop or laptop follow these steps:
 - login signal
 - login telegram
 
+### Read battery percentage from CLI
+
+`pmset -g batt`
+
 ## Resources
 https://github.com/drduh/YubiKey-Guide
 https://blog.filippo.io/touch-to-operate-password-store-yubikey-4/
