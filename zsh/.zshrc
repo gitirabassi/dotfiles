@@ -19,7 +19,7 @@ export PATH=/opt/brew/bin:$PATH
 source $ZSH/oh-my-zsh.sh
 eval "$(direnv hook zsh)"
 autoload -U compinit && compinit
-source $HOME/.cargo/env
+# source $HOME/.cargo/env
 
 # Direct Exports
 export EDITOR=nvim
