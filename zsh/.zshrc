@@ -13,6 +13,7 @@ plugins=(
   aws
   nmap
 )
+
 source $ZSH/oh-my-zsh.sh
 eval "$(direnv hook zsh)"
 autoload -U compinit && compinit

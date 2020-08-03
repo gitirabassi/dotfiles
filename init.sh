@@ -14,16 +14,11 @@ brew bundle install --file=brew/Brewfile.work
 
 # Install oh-my-zsh
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
-  info "Installing Oh My ZShell!"
+  echo "Installing Oh My ZShell!"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-if [ "$SHELL" != "/bin/zsh" ]; then
-  info "Setting zsh as default shell"
-  chsh -s /bin/zsh
-fi
-
-bash iTerm2/install.sh
+# bash iTerm2/install.sh
 
 # Run installation of dotfiles
 bash install.sh
