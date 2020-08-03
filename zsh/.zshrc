@@ -1,7 +1,12 @@
 ZSH="$HOME/.oh-my-zsh"
 export ZSH_THEME="bira"
 plugins=(
+  git
+  vagrant
+  python
   golang
+  docker
+  docker-compose
   kubectl
   colored-man-pages
   gpg-agent
