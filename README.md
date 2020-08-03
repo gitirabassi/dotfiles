@@ -31,6 +31,7 @@ https://github.com/herrbischoff/awesome-macos-command-line#google
 - https://github.com/webpro/awesome-dotfiles
 - https://github.com/joshukraine/mac-bootstrap
 - https://github.com/joshukraine/mac-bootstrap/blob/master/install/macos-defaults
+- https://github.com/mathiasbynens/dotfiles/blob/main/.macos
 - https://github.com/atosatto/dotfiles
 
 ## Usefull commands

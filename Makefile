@@ -9,3 +9,7 @@ install:
 	bash install.sh
 	brew bundle install --file=brew/Brewfile
 	rustup-init
+
+update:
+	brew update
+	brew upgrade

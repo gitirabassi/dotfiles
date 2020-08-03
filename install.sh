@@ -21,6 +21,7 @@ $stow -t $HOME git
 $stow -t $HOME gnupg
 $stow -t $HOME vscode
 $stow -t $HOME myrepos
+$stow -t $HOME curl
 
 for ext in $(cat vscode/extensions.txt)
 do
