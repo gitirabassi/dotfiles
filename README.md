@@ -39,3 +39,16 @@ https://github.com/herrbischoff/awesome-macos-command-line#google
 
 ## to switch to a new yubikey
 `gpg-connect-agent "scd serialno" "learn --force" /bye`
+
+## Yet to codify configuration
+- enable showing percentage of battery in top bar
+- show bluethooh, keyboard language, vpn connection, timemachine, audio in top bar
+- dock: 
+  - enable auto hiding
+  - disable recent used apps
+  - codify list of applications which ought to be be shown
+- increase speed of trackpad
+- change compute name, hostname to predefined one
+- enable filevault with Icloud/recovery key
+- connect to AFP volume 
+- add Mail account from terminal
