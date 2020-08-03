@@ -52,3 +52,10 @@ https://github.com/herrbischoff/awesome-macos-command-line#google
 - enable filevault with Icloud/recovery key
 - connect to AFP volume 
 - add Mail account from terminal
+
+## Fix permissions of gnupg folder
+
+```bash
+find ~/.gnupg -type f -exec chmod 600 {} \;
+find ~/.gnupg -type d -exec chmod 700 {} \;
+```
