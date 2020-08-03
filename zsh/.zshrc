@@ -22,6 +22,7 @@ source $HOME/.cargo/env
 export EDITOR=nvim
 export KUBE_EDITOR=nvim
 export GOPATH=$HOME/go
+export PATH=/opt/brew/bin:$PATH
 export PATH=$HOME/go/bin:$PATH
 export PATH=$PATH:$HOME/go/src/k8s.io/kubernetes/_output/bin
 export PATH="/usr/local/sbin:$PATH"
